@@ -1,55 +1,64 @@
+
+/*-- Maded by Quan Nguyen on 26/9/2023 */
+
 /*
     Author: Vijay Thapa;
     Theme: food order website admin;
     Version: 1.0
 */
-
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.wrapper{
+.wrapper {
     padding: 1%;
     width: 80%;
     margin: 0 auto;
 }
 
-.text-center{
+.text-center {
     text-align: center;
 }
-.clearfix{
+
+.clearfix {
     float: none;
     clear: both;
 }
+
 /* Css for menu */
-.menu{
-    border-bottom:1px solid grey ;
+.menu {
+    border-bottom: 1px solid grey;
 }
-.menu ul{
+
+.menu ul {
     list-style-type: none;
 }
-.menu ul li{
+
+.menu ul li {
     display: inline;
     padding: 1%;
 }
-.menu ul li a{
+
+.menu ul li a {
     text-decoration: none;
     font-weight: bold;
-    color:#ff7979 ;
+    color: #ff7979;
 }
-.menu ul li a:hover{
+
+.menu ul li a:hover {
     color: #eb4d4b;
 }
 
 /* css for main-content */
-.main-content{
+.main-content {
     margin: 1% 0;
-    background-color: #dcdde1;
+    background-color: #f1f2f6;
     padding: 3% 0;
 }
-.col-4{
+
+.col-4 {
     width: 18%;
     background-color: white;
     margin: 1%;
@@ -58,7 +67,7 @@
 }
 
 /* css for footer */
-.footer{
+.footer {
     background-color: #ff7979;
     color: white;
 
